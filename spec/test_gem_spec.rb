@@ -1,9 +1,9 @@
 require 'test_gem'
 
-describe "test_gem" do
-  it "Should make a new Hello" do
-    h = "hello"
-    h.should
+describe Karen do
+  it "Should say my name" do
+    k = Karen.new
+    k.name.should eq "Karen"
+  end
 end
 
-puts "Hello World"
